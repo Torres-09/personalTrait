@@ -2,12 +2,17 @@ package Hwan2da.personalTrait;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
 public class PersonalTraitApplication {
+	public static final String APPLICATION_LOCATION = "spring.config.location=" +
+			"classpath:application.properties";
 
 	public static void main(String[] args) {
-		SpringApplication.run(PersonalTraitApplication.class, args);
+		new SpringApplicationBuilder(PersonalTraitApplication.class)
+				.properties(APPLICATION_LOCATION)
+				.run(args);
 	}
 
 }
