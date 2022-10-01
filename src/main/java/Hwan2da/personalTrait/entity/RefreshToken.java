@@ -1,4 +1,4 @@
-package Hwan2da.personalTrait.domain.auth.model;
+package Hwan2da.personalTrait.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

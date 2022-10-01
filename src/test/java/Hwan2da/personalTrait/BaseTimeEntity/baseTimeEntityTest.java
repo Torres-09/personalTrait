@@ -1,7 +1,7 @@
 package Hwan2da.personalTrait.BaseTimeEntity;
 
-import Hwan2da.personalTrait.domain.user.model.User;
-import Hwan2da.personalTrait.domain.user.repository.UserRepository;
+import Hwan2da.personalTrait.entity.User;
+import Hwan2da.personalTrait.repository.UserRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +20,8 @@ public class baseTimeEntityTest {
         LocalDateTime localDateTime = LocalDateTime.now();
 
         User user = User.builder()
-                .name("임세환")
-                .nickName("hwan2da")
+                .username("임세환")
+                .nickname("hwan2da")
                 .build();
         //when
         userRepository.save(user);

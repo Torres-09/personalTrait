@@ -1,4 +1,4 @@
-package Hwan2da.personalTrait.domain.common;
+package Hwan2da.personalTrait.common;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

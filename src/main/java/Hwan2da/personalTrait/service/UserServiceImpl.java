@@ -1,4 +1,4 @@
-package Hwan2da.personalTrait.domain.user.service;
+package Hwan2da.personalTrait.service;
 
 import org.springframework.stereotype.Service;
 

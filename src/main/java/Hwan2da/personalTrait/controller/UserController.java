@@ -1,4 +1,4 @@
-package Hwan2da.personalTrait.domain.user.controller;
+package Hwan2da.personalTrait.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
